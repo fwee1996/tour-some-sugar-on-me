@@ -1,4 +1,4 @@
-.details{
+/* .details{
     display:flex;
     flex-direction: row;
 }
@@ -12,9 +12,56 @@
 
 .currentBooking{
     justify-content: center;
-    flex-basis: 24%;
+    flex-basis: 50%;
     margin: 0 2rem;
     padding-bottom: 1rem;
     padding-left: 1rem;
     border: 1px dotted goldenrod;
-}
+} */
+
+
+
+
+
+
+
+
+.details {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .detail--column {
+    flex-basis: calc(33.33% - 4rem);
+    margin: 2rem;
+    border: 5px dotted #f63434;
+    padding: 1.5rem;
+    background-color: #1c1c1c;
+    color: #fff;
+  }
+  
+  .detail--column h2 {
+    font-family: "Patua One", serif;
+    color: #ffd700;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .currentBooking {
+    justify-content: center;
+    flex-basis: 100%;
+    margin: 2rem;
+    padding-bottom: 1rem;
+    padding-left: 1rem;
+    border: 5px solid #f50404;
+    background-color: #1c1c1c;
+    color: #fff;
+  }
+  
+  .currentBooking h2 {
+    font-family: "Patua One", serif;
+    color: #ffd700;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  } 
