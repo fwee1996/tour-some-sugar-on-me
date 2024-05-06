@@ -1,0 +1,20 @@
+.details{
+    display:flex;
+    flex-direction: row;
+}
+
+.detail--column {
+    flex-basis: 24%;
+    margin: 0 2rem;
+    border: 1px dotted goldenrod;
+    padding: 1rem;
+}
+
+.currentBooking{
+    justify-content: center;
+    flex-basis: 24%;
+    margin: 0 2rem;
+    padding-bottom: 1rem;
+    padding-left: 1rem;
+    border: 1px dotted goldenrod;
+}
